@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react'
 
 import './App.css'
+import TimeComponent from './components/TimeComponent';
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [total, setTotal] = useState(1)
+  // const [count, setCount] = useState(0)
+  // const [total, setTotal] = useState(1)
 
   //somthing which is imp
   //first -> side-effect function
@@ -47,10 +48,11 @@ function App() {
   }
   return (
     <>
-    <p>count is : {count}</p>
+    {/* <TimeComponent /> */}
+    {/* <p>count is : {count}</p>
       <button onClick={handleClick}>Click count</button>
     <p>totai is : {total}</p>
-      <button onClick={handleTotal}>Click total</button>
+      <button onClick={handleTotal}>Click total</button> */}
     </>
   )
 }
